@@ -4,8 +4,8 @@
 [![React Frontend](https://img.shields.io/badge/React-Frontend-blueviolet)](https://reactjs.org/)
 [![License](https://img.shields.io/github/license/kacpersmal/fitness-tracker)](LICENSE)
 
-[![Client App CI](https://github.com/<your-username>/<your-repo>/actions/workflows/client-app.yml/badge.svg)](https://github.com/kacpersmal/fitness-tracker/actions/workflows/client-app.yml)
-[![Backend App CI](https://github.com/<your-username>/<your-repo>/actions/workflows/backend-app.yml/badge.svg)](https://github.com/kacpersmal/fitness-tracker/actions/workflows/backend-app.yml)
+[![Client App CI](https://github.com/kacpersmal/fitness-tracker/actions/workflows/client-app.yml/badge.svg)](https://github.com/kacpersmal/fitness-tracker/actions/workflows/client-app.yml)
+[![Backend App CI](https://github.com/kacpersmal/fitness-tracker/actions/workflows/backend-app.yml/badge.svg)](https://github.com/kacpersmal/fitness-tracker/actions/workflows/backend-app.yml)
 
 ## 🚀 Project Overview
 This project is a **Gym Progress Tracker** and **Training Plan Sharing Platform** designed to help gym enthusiasts track their workouts, monitor fitness progress, and share custom training plans with others.
