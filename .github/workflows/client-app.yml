@@ -3,8 +3,12 @@ name: Client App CI
 on:
   push:
     branches: [develop]
+    paths:
+      - 'src/client-app/**'
   pull_request:
     branches: [develop]
+    paths:
+      - 'src/client-app/**'
 
 jobs:
   build:
