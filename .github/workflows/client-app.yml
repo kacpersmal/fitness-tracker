@@ -1,0 +1,22 @@
+name: Client App CI
+
+on:
+  push:
+    branches: [develop]
+  pull_request:
+    branches: [develop]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '21'
+    - run: npm install
+      working-directory: ./src/client-app
+    - run: npm run build
+      working-directory: ./src/client-app
