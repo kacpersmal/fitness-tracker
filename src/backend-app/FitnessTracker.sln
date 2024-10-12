@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTracker.Api", "FitnessTracker.Api\FitnessTracker.Api.csproj", "{44C29845-1EEF-436F-8336-B33845D84A5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTracker.Application", "FitnessTracker.Application\FitnessTracker.Application.csproj", "{9AC980DB-52AB-4F88-AA47-30C0792A09CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTracker.Infrastructure", "FitnessTracker.Infrastructure\FitnessTracker.Infrastructure.csproj", "{3E0EDC2D-DF94-4C0C-A6C3-C098898DF196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTracker.Core", "FitnessTracker.Core\FitnessTracker.Core.csproj", "{1056233D-A1D5-45A8-80BE-EBD7FFDE8055}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{44C29845-1EEF-436F-8336-B33845D84A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44C29845-1EEF-436F-8336-B33845D84A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44C29845-1EEF-436F-8336-B33845D84A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC980DB-52AB-4F88-AA47-30C0792A09CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC980DB-52AB-4F88-AA47-30C0792A09CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC980DB-52AB-4F88-AA47-30C0792A09CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC980DB-52AB-4F88-AA47-30C0792A09CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0EDC2D-DF94-4C0C-A6C3-C098898DF196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0EDC2D-DF94-4C0C-A6C3-C098898DF196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0EDC2D-DF94-4C0C-A6C3-C098898DF196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0EDC2D-DF94-4C0C-A6C3-C098898DF196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1056233D-A1D5-45A8-80BE-EBD7FFDE8055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1056233D-A1D5-45A8-80BE-EBD7FFDE8055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1056233D-A1D5-45A8-80BE-EBD7FFDE8055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1056233D-A1D5-45A8-80BE-EBD7FFDE8055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
